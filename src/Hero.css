@@ -1,0 +1,74 @@
+.head {
+  font-size: 4rem;
+  margin-top: 20px;
+  line-height: 0.9;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.subhead {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.headingbox {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.hero-background {
+  height: 100%;
+  display: block;
+  padding: 50px;
+  background: linear-gradient(to right, #171e24, #12131a);
+}
+
+.gradientButton {
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.mainhead {
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.gradient-box {
+  align-items: center;
+  text-align: center;
+}
+
+.gradient-item {
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15vw;
+  border: 8px solid whitesmoke;
+  border-radius: 100%;
+  max-width: 20vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

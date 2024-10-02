@@ -1,0 +1,52 @@
+.nav-background {
+  background-color: rgb(107, 107, 107);
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.nav-link {
+  color: grey;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbox {
+  display: flex;
+  padding: 2vw 20vw;
+  justify-content: space-between;
+  color: whitesmoke;
+
+}
+
+.navcontainer {
+  background-color: whitesmoke;
+ 
+}
+
+.signinbtn {
+  color: linear-gradient(to right, #171e24, #12131a);
+  border: 2px solid #3d3d3d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.signinbtn:hover {
+  background-color: #666;
+}
+
+.signoutbtn {
+  background: linear-gradient(to right, #171e24, #12131a);
+  color: white;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
